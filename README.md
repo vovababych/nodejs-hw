@@ -106,17 +106,20 @@ invokeAction(argv);
 ```shell
 # Получаем и выводим весь список контакстов в виде таблицы (console.table)
 node index.js --action="list"
-[screenshot](https://ibb.co/R7DPjLz)
 
 # Получаем контакт по id
 node index.js --action="get" --id=5
-[screenshot](https://ibb.co/6Bw6nVw)
 
 # Добавялем контакт
 node index.js --action="add" --name="Mango" --email="mango@gmail.com" --phone="322-22-22"
-[screenshot](https://ibb.co/SXNSRTj)
 
 # Удаляем контакт
 node index.js --action="remove" --id=3
-[screenshot](https://ibb.co/T0kTnCR)
 ```
+
+## Screenshots
+
+[node index.js --action="list"](https://ibb.co/R7DPjLz)
+[node index.js --action="get" --id=5](https://ibb.co/6Bw6nVw)
+[node index.js --action="add" --name="Mango" --email="mango@gmail.com" --phone="322-22-22"](https://ibb.co/SXNSRTj)
+[node index.js --action="remove" --id=3](https://ibb.co/T0kTnCR)
