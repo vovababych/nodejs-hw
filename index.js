@@ -1,12 +1,10 @@
 import contacts from "./contacts.js";
 import program from "./lib/commander.js";
-// import { handleError } from "./lib/handleerror.js";
 import createDirname from "./lib/dirname.js";
 
 const { __dirname, __filename } = createDirname(import.meta.url);
 program.parse();
 const args = program.opts();
-// console.log(args);
 
 function invokeAction({ action, id, name, email, phone }) {
   switch (action) {
